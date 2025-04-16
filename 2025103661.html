@@ -3,29 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>인터넷콘텐츠과제</title>
+    <style>
+         body {
+            background-color: aliceblue;
+         }
+         h1 {
+            text-align: center;
+            color: blueviolet;
+         }
+         p {
+            font-style: oblique;
+            font-size: 1em;
+         }
+         h3 {
+            text-shadow: 1px 2px 3px gray;
+         }
+         footer {
+            background: #90f800;
+            width: 1000px;
+            padding: 20px;
+            border-radius: 20px;
+         }
+    </style>
 </head>
 <body>
     <header>
     <h1>About me</h1>
     <hr>
-    <p>안녕하세요 저의 이름은 소현빈이라고 합니다. 저는 여러분들과 함께 대학 생활을 해서 즐겁습니다.
+    <p style="text-indent: 1em;"> 안녕하세요 저의 이름은 소현빈이라고 합니다. 저는 여러분들과 함께 대학 생활을 해서 즐겁습니다.
        저는 다양한 취미활동을 즐기고있습니다. 모두 즐거운 인생 사세요 ㅎㅎ^^
     </p>
 <audio src="media/20250326_192530.mp3"controls loop>브라우저가 audio태그를 지원하지 않습니다.
 </audio>
 </header>
 <nav>
-<h1>목차</h1>
-<ul>
-    <li><a href="#관심">관심분야</a>
-    <li><a href="#취미">취미활동</a>
-    <li><a href="#강의">강의 시간표</a>
+<h3>목차</h3>
+<ul style="border: 1px dotted darkblue;">
+    <li><a href="#관심" style="text-decoration: none;">관심분야</a>
+    <li><a href="#취미"style="text-decoration: none;">취미활동</a>
+    <li><a href="#강의"style="text-decoration: none;">강의 시간표</a>
 </ul>
 </nav>
 <section>
     <article>
     <br>
-<h1 id="관심">관심분야</h1>
+<h3 id="관심">관심분야</h3>
 <hr>
 <ul>   
     <li>영화
@@ -52,12 +74,12 @@
     </article>
     <article>
         <br>
-    <h1 id="취미">취미활동</h1>
+    <h3 id="취미">취미활동</h3>
     <hr>
     <table border="1">
         <tbody>
             <tr>
-                <td><img src="media/billiards.jpg"사진 주소 변경됨"width="300" height="200"></td>
+                <td><img src="media/billiards.jpg"alt="사진 주소 변경됨"width="300" height="200"></td>
                 <td><img src="media/soccer.jfif"alt="사진 주소 변경됨"width="300" height="200"></td>
                 <td><img src="media/running.jpg"alt="사진 주소 변경됨"width="300" height="200"></td>
             </tr>
@@ -68,7 +90,7 @@
     </table>
     </article>
     <article>
-<h1 id="강의">강의 시간표(2025 1학기)</h1>
+<h3 id="강의">강의 시간표(2025 1학기)</h3>
 <hr>
 <table border="1">
 <thead>
@@ -151,8 +173,8 @@
     </article>
 </section>
 <hr>
-<a href="https://2025103661.github.io/webcontents/survey.html"target="_blank">설문조사</a>
 <footer>
+<a href="https://2025103661.github.io/webcontents/survey.html"style="text-decoration: none;"target="_blank">설문조사</a>
     <p>2025년 3월 26일 작성</p>
 </footer>
 </body>
